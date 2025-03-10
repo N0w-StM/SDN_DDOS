@@ -32,7 +32,7 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
 [![JobLib](https://img.shields.io/badge/JobLib-Performance-green?logo=joblib)](https://joblib.readthedocs.io/)
 ## Training
 
-The <a href="https://github.com/N0w-StM/SDN_DDOS/SDN_DDOS.ipynb">SDN_DDOS.ipynb</a> file, follow these steps:
+The <a href="https://github.com/N0w-StM/SDN_DDOS/blob/main/SDN_DDOS.ipynb">SDN_DDOS.ipynb</a> file, follow these steps:
 
 1. **Load and Preprocess the Data**  
    The script begins by loading the dataset and applying necessary preprocessing techniques to prepare the data for modeling.
