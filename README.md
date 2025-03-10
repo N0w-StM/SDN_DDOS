@@ -14,13 +14,13 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
 
 ## Installation
 ### Built With
-* [![Python3.X][Python]][https://www.python.org/]
-* [![Ryu][RYU][https://ryu-sdn.org/]
-* [![Mininet][Mininet][https://mininet.org/]
-* [![Scikit-Learn][Scikit-Learn][https://scikit-learn.org/]
-* [![Pandas][Pandas][https://pandas.pydata.org/]
-* [![Numpy][Numpy][https://numpy.org/]
-* [![JobLib][JobLib][https://joblib.readthedocs.io/]
+* [![Python3.X][Python]][https://www.python.org/]]
+* [![Ryu][RYU][https://ryu-sdn.org/]]
+* [![Mininet][Mininet][https://mininet.org/]]
+* [![Scikit-Learn][Scikit-Learn][https://scikit-learn.org/]]
+* [![Pandas][Pandas][https://pandas.pydata.org/]]
+* [![Numpy][Numpy][https://numpy.org/]]
+* [![JobLib][JobLib][https://joblib.readthedocs.io/]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
