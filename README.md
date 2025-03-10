@@ -40,12 +40,13 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
    └── NEW_SC.pkl # Saved ML scaler
 ```
 ### Training
-**Run the script:** Execute the python script.  The script performs the following steps:
-    - Loads and preprocesses the data.
-    - Splits the data into training and testing sets.
-    - Trains a RandomForestClassifier model.
-    - Evaluates the model using classification metrics and a confusion matrix.
-    - Saves the trained model and scaler to disk.
+**Run the script:** Execute the python script. 
+The script performs the following steps:
+    1- Loads and preprocesses the data.
+    2- Splits the data into training and testing sets.
+    3- Trains a RandomForestClassifier model.
+    4- Evaluates the model using classification metrics and a confusion matrix.
+    5- Saves the trained model and scaler to disk.
 <p align="right">(<a href="SDN_PJT.ipynb">FILE</a>)</p>
 
 ### Model Evaluation
@@ -65,7 +66,7 @@ The trained model and the StandardScaler used for feature scaling are saved usin
 ## Usage
  1. Install dependencies:
 ```sh
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 2. Run Ryu-controller:
 ```sh
@@ -75,7 +76,7 @@ ryu-manager DDOS_DETECT.py
 ```sh
 python3 Topo.py
 ```
-** Now you can launch DOS ATTACK
+** Now you can launch DDOS ATTACK
 ## License
 
 Distributed under the Mit License. See `LICENSE.txt` for more information.
