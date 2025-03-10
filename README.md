@@ -1,4 +1,3 @@
-<div align="center">
 # Detecting DDoS Attacks in SDN using Machine Learning
 
 ## Overview
