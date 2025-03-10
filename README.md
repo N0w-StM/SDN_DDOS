@@ -12,20 +12,6 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
 - **Integration with Ryu Controller**: Uses a trained model to make real-time traffic decisions.
 - **Mininet Topology**: Simulates an SDN environment for testing.
 
-## Installation
-### Dependencies
-
-[![Python](https://img.shields.io/badge/Python-3.X-blue?logo=python)](https://www.python.org/)
-[![Ryu](https://img.shields.io/badge/Ryu-SDN-blue?logo=ryu)](https://ryu-sdn.org/)
-[![Mininet](https://img.shields.io/badge/Mininet-Networking-blue?logo=mininet)](https://mininet.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-Data-blue?logo=pandas)](https://pandas.pydata.org/)
-[![Numpy](https://img.shields.io/badge/Numpy-Math-blue?logo=numpy)](https://numpy.org/)
-[![JobLib](https://img.shields.io/badge/JobLib-Performance-green?logo=joblib)](https://joblib.readthedocs.io/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Files and Structure
 ```text
 ├── SDN_DDOS.ipynb      # Google Colab file for training the ML model
@@ -38,6 +24,15 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
    ├── NEW_MOD.pkl # Saved ML model
    └── NEW_SC.pkl # Saved ML scaler
 ```
+## Dependencies
+
+[![Python](https://img.shields.io/badge/Python-3.X-blue?logo=python)](https://www.python.org/)
+[![Ryu](https://img.shields.io/badge/Ryu-SDN-blue?logo=ryu)](https://ryu-sdn.org/)
+[![Mininet](https://img.shields.io/badge/Mininet-Networking-blue?logo=mininet)](https://mininet.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data-blue?logo=pandas)](https://pandas.pydata.org/)
+[![Numpy](https://img.shields.io/badge/Numpy-Math-blue?logo=numpy)](https://numpy.org/)
+[![JobLib](https://img.shields.io/badge/JobLib-Performance-green?logo=joblib)](https://joblib.readthedocs.io/)
 ## Training
 
 The <a href="SDN_PJT.ipynb">SDN_DDOS.ipynb</a> file, follow these steps:
