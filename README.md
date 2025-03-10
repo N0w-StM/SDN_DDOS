@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ```
 2. Run Ryu-controller:
 ```sh
-ryu-manager DDOS_DETECT.py
+ryu-manager RYU-CTL.py
 ```
 3. start Mininet :
 ```sh
