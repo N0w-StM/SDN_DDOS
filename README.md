@@ -26,8 +26,7 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
-### Files and Structure
+## Files and Structure
 ```text
 ├── SDN_DDOS.ipynb      # Google Colab file for training the ML model
 ├── DDOS_DETECT.py      # Ryu controller script with ML integration
@@ -39,15 +38,24 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
    ├── NEW_MOD.pkl # Saved ML model
    └── NEW_SC.pkl # Saved ML scaler
 ```
-### Training
-**Run the script:** Execute the python script. 
-The script performs the following steps:
-    1- Loads and preprocesses the data.
-    2- Splits the data into training and testing sets.
-    3- Trains a RandomForestClassifier model.
-    4- Evaluates the model using classification metrics and a confusion matrix.
-    5- Saves the trained model and scaler to disk.
-<p align="right">(<a href="SDN_PJT.ipynb">FILE</a>)</p>
+## Training
+
+The <a href="SDN_PJT.ipynb">SDN_DDOS.ipynb</a> file, follow these steps:
+
+1. **Load and Preprocess the Data**  
+   The script begins by loading the dataset and applying necessary preprocessing techniques to prepare the data for modeling.
+
+2. **Split the Data**  
+   The dataset is then divided into training and testing sets to ensure that the model can be effectively evaluated on unseen data.
+
+3. **Train the Model**  
+   A `RandomForestClassifier` model is trained using the training set, allowing it to learn from the provided features and labels.
+
+4. **Evaluate the Model**  
+   After training, the model's performance is assessed using classification metrics, such as accuracy, precision, recall, and F1-score. A confusion matrix is also generated to visualize the model's predictions versus the actual labels.
+
+5. **Save the Model and Scaler**  
+   Finally, the trained model and the scaler used for preprocessing are saved to disk for future use, ensuring that you can easily load and utilize them without retraining.
 
 ### Model Evaluation
 
