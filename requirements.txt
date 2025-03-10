@@ -1,0 +1,7 @@
+mininet
+ryu
+pandas
+termcolor
+joblib
+numpy
+scikit-learn
