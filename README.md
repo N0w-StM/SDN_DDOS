@@ -13,20 +13,22 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
 - **Mininet Topology**: Simulates an SDN environment for testing.
 
 ## Installation
-### Built With
-* [![Python3.X][Python]][https://www.python.org/]]
-* [![Ryu][RYU][https://ryu-sdn.org/]]
-* [![Mininet][Mininet][https://mininet.org/]]
-* [![Scikit-Learn][Scikit-Learn][https://scikit-learn.org/]]
-* [![Pandas][Pandas][https://pandas.pydata.org/]]
-* [![Numpy][Numpy][https://numpy.org/]]
-* [![JobLib][JobLib][https://joblib.readthedocs.io/]]
+### Dependencies
+
+[![Python](https://img.shields.io/badge/Python-3.X-blue?logo=python)](https://www.python.org/)
+[![Ryu](https://img.shields.io/badge/Ryu-SDN-blue?logo=ryu)](https://ryu-sdn.org/)
+[![Mininet](https://img.shields.io/badge/Mininet-Networking-blue?logo=mininet)](https://mininet.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data-blue?logo=pandas)](https://pandas.pydata.org/)
+[![Numpy](https://img.shields.io/badge/Numpy-Math-blue?logo=numpy)](https://numpy.org/)
+[![JobLib](https://img.shields.io/badge/JobLib-Performance-green?logo=joblib)](https://joblib.readthedocs.io/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgments
 ### Files and Structure
-
+```text
 ├── SDN_DDOS.ipynb      # Google Colab file for training the ML model
 ├── DDOS_DETECT.py      # Ryu controller script with ML integration
 ├── Topo.py             # Mininet topology script
@@ -36,7 +38,7 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
    ├── AL_SC.pkl # Saved ML scaler
    ├── NEW_MOD.pkl # Saved ML model
    └── NEW_SC.pkl # Saved ML scaler
-
+```
 ### Training
 **Run the script:** Execute the python script.  The script performs the following steps:
     - Loads and preprocesses the data.
