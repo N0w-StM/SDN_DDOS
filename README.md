@@ -12,7 +12,7 @@ This project implements a DDoS attack detection system in Software-Defined Netwo
 ## Files and Structure
 ```text
 ├── SDN_DDOS.ipynb      # Google Colab file for training the ML model
-├── DDOS_DETECT.py      # Ryu controller script with ML integration
+├── RYU-CTL.py      # Ryu controller script with ML integration
 ├── Topo.py             # Mininet topology script
 ├── requirements.txt    # Required Python librarie
 └── MODELS 
