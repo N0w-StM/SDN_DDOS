@@ -3,9 +3,6 @@
 ## Overview
 This project implements a DDoS attack detection system in Software-Defined Networking (SDN) using Machine Learning. The model is trained using scikit-learn and integrated into the Ryu controller to monitor and block malicious traffic in a Mininet-based network topology.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Features
 - **Machine Learning-based Detection**: Trained an AI model using scikit-learn with DDoS attack data.
 - **Traffic Classification**: Identifies and blocks malicious packets while allowing normal traffic.
@@ -83,5 +80,3 @@ python3 Topo.py
 ## License
 
 Distributed under the Mit License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
